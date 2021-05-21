@@ -26,15 +26,4 @@ export default {
 </script>
 
 <style scoped>
-li {
-  margin-bottom: 40px;
-}
-img {
-  max-width: 50px;
-  height: 50px;
-}
-
-span {
-  display: block;
-}
 </style>

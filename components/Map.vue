@@ -10,7 +10,7 @@
         v-for="location in locations"
         :key="location.id"
         :position="{lat: location.lat, lng: location.lng}"
-        :options="{icon: location.logo}"
+        :options="{icon: location.logo, width: 50, height: 50, size:{width: 50, height: 50}}"
 
       >
         <GMapInfoWindow :options="{maxWidth: 200}">
